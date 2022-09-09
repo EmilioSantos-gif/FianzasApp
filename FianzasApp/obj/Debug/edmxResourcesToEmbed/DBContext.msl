@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="FinanzasAppDBModelStoreContainer" CdmEntityContainer="FinanzasAppDBEntities">
+    <EntitySetMapping Name="Caso">
+      <EntityTypeMapping TypeName="FinanzasAppDBModel.Caso">
+        <MappingFragment StoreEntitySet="Caso">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Descripcion" ColumnName="Descripcion" />
+          <ScalarProperty Name="CantidadImputados" ColumnName="CantidadImputados" />
+          <ScalarProperty Name="FchUltActualizacion" ColumnName="FchUltActualizacion" />
+          <ScalarProperty Name="BalanceFianza" ColumnName="BalanceFianza" />
+          <ScalarProperty Name="Estado" ColumnName="Estado" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Fianza">
+      <EntityTypeMapping TypeName="FinanzasAppDBModel.Fianza">
+        <MappingFragment StoreEntitySet="Fianza">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Descripcion" ColumnName="Descripcion" />
+          <ScalarProperty Name="Monto" ColumnName="Monto" />
+          <ScalarProperty Name="Cedula" ColumnName="Cedula" />
+          <ScalarProperty Name="Nombres" ColumnName="Nombres" />
+          <ScalarProperty Name="Apellidos" ColumnName="Apellidos" />
+          <ScalarProperty Name="Sexo" ColumnName="Sexo" />
+          <ScalarProperty Name="FechaRegistro" ColumnName="FechaRegistro" />
+          <ScalarProperty Name="Estado" ColumnName="Estado" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <FunctionImportMapping FunctionImportName="SPGetCasos" FunctionName="FinanzasAppDBModel.Store.SPGetCasos">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="FinanzasAppDBModel.SPGetCasos_Result">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Descripcion" ColumnName="Descripcion" />
+          <ScalarProperty Name="CantidadImputados" ColumnName="CantidadImputados" />
+          <ScalarProperty Name="FchUltActualizacion" ColumnName="FchUltActualizacion" />
+          <ScalarProperty Name="BalanceFianza" ColumnName="BalanceFianza" />
+          <ScalarProperty Name="Estado" ColumnName="Estado" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="SPGetFianzas" FunctionName="FinanzasAppDBModel.Store.SPGetFianzas">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="FinanzasAppDBModel.SPGetFianzas_Result">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Descripcion" ColumnName="Descripcion" />
+          <ScalarProperty Name="Monto" ColumnName="Monto" />
+          <ScalarProperty Name="Cedula" ColumnName="Cedula" />
+          <ScalarProperty Name="Nombres" ColumnName="Nombres" />
+          <ScalarProperty Name="Apellidos" ColumnName="Apellidos" />
+          <ScalarProperty Name="Sexo" ColumnName="Sexo" />
+          <ScalarProperty Name="FechaRegistro" ColumnName="FechaRegistro" />
+          <ScalarProperty Name="Estado" ColumnName="Estado" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="SPInsertCaso" FunctionName="FinanzasAppDBModel.Store.SPInsertCaso" />
+    <FunctionImportMapping FunctionImportName="SPInsertFianza" FunctionName="FinanzasAppDBModel.Store.SPInsertFianza" />
+    <FunctionImportMapping FunctionImportName="SPUpsertCaso" FunctionName="FinanzasAppDBModel.Store.SPUpsertCaso" />
+    <FunctionImportMapping FunctionImportName="SPUpssertCaso" FunctionName="FinanzasAppDBModel.Store.SPUpssertCaso" />
+  </EntityContainerMapping>
+</Mapping>

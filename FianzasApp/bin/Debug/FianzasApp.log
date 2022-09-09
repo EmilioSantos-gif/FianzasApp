@@ -1,0 +1,21 @@
+2022-09-09 13:29:01,380 [1] INFO DESKTOP-7OOTLMS - Log de prueba
+2022-09-09 13:29:01,412 [1] WARN DESKTOP-7OOTLMS - Log de prueba
+2022-09-09 13:29:01,412 [1] ERROR DESKTOP-7OOTLMS - Log de prueba
+2022-09-09 13:34:09,943 [1] INFO DESKTOP-7OOTLMS - Log de prueba
+2022-09-09 13:34:10,080 [1] WARN DESKTOP-7OOTLMS - Log de prueba
+2022-09-09 13:34:10,080 [1] ERROR DESKTOP-7OOTLMS - Log de prueba
+2022-09-09 13:48:33,144 [1] INFO DESKTOP-7OOTLMS - Log de prueba
+2022-09-09 13:48:33,238 [1] WARN DESKTOP-7OOTLMS - Log de prueba
+2022-09-09 13:48:33,240 [1] ERROR DESKTOP-7OOTLMS - Log de prueba
+2022-09-09 13:50:42,339 [1] INFO DESKTOP-7OOTLMS - Se ha registrado el caso: Caso medusa 63 0 En proceso
+2022-09-09 13:51:51,530 [1] INFO DESKTOP-7OOTLMS - Se ha registrado el caso: Caso medusa 63 0 En proceso
+2022-09-09 13:52:40,991 [1] INFO DESKTOP-7OOTLMS - Se ha registrado la fianza: Fianza COE 157000310 00148596748 Diandino Pena M Pendiente
+2022-09-09 13:52:41,002 [1] INFO DESKTOP-7OOTLMS - Se ha actualizado el balance a: 157000310
+2022-09-09 13:56:20,441 [1] INFO DESKTOP-7OOTLMS - Se ha registrado la fianza: Fianza MOP 200000000 00148573947 Gonzalo Castillo M Pendiente
+2022-09-09 13:56:20,523 [1] INFO DESKTOP-7OOTLMS - Se ha actualizado el balance a: 357000310
+2022-09-09 13:59:58,959 [1] INFO DESKTOP-7OOTLMS - Se ha registrado la fianza: Hacienda 100000000 40211781378 Jose Yan M Pendiente
+2022-09-09 13:59:59,020 [1] INFO DESKTOP-7OOTLMS - Se ha actualizado el balance a: 457000310
+2022-09-09 14:02:49,719 [1] INFO DESKTOP-7OOTLMS - Se ha registrado la fianza: Hacienda 50000000 40291326887 Emilio A. Santos M PAGO
+2022-09-09 14:02:49,770 [1] INFO DESKTOP-7OOTLMS - Se ha actualizado el balance a: 507000310
+2022-09-09 14:06:23,610 [1] INFO DESKTOP-7OOTLMS - Se ha registrado la fianza: Obras Publicas 300500000 00193847586 Alexis D. Medina M PENDIENTE
+2022-09-09 14:06:23,669 [1] INFO DESKTOP-7OOTLMS - Se ha actualizado el balance a: 807500310
